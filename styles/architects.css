@@ -162,6 +162,50 @@ main {
     margin-bottom: 32px;
 }
 
+/* some-facts */
+.some-facts {
+    padding-top: 130px;
+}
+.some-facts h3 {
+    font-size: 2.8rem;
+    font-weight: bold;
+    margin-bottom: 24px;
+}
+.some-facts p {
+    max-width: 540px;
+    font-size: 1rem;
+    line-height: 26px;
+}
+.some-box {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin-top: 100px;
+}
+.some-card {
+    border: 1px solid #FF900E;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 240px;
+    height: 240px;
+    border-radius: 8px;
+    padding: 45px 35px 59px 35px;
+}
+.some-card img {
+    margin-bottom: 10px;
+}
+.some-card h3 {
+    font-size: 2.8rem;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.some-card p {
+    font-size: 20px;
+    font-weight: 700px;
+    color: #727272;
+}
+
 /* responsive media query */
 @media screen and (max-width:576px) {
 
